@@ -5,4 +5,8 @@
 
 2018-2021 Crysta1221 
 ## Footy2の作成
-### Footy2
+- `Footy2Create hWnd,int,int,int,int,int`
+   - Footy2 コントロールを作成します。構文は、 `Footy2Create hWnd <生成するx座標> <生成するy座標> <コントロールの幅> <コントロールの高さ> <Footy2の状態>`です。
+     Footy2の状態については、以下の表をいずれかを入力してください。この設定で分割画面にするか切り替えることができます。
+       - VIEWMODE-NORMAL 通常のコントロールを作成します
+       - VIEWMODE-VERTICAL 縦に二分割したコントロールを作成します
